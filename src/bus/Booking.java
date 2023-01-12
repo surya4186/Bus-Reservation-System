@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package bus;
 
 import java.text.ParseException;
@@ -54,3 +55,24 @@ public class Booking {
 	}
 
 }
+=======
+package bus;
+import java.util.Scanner;
+public class Booking {
+	String passengerName;
+	int busNumber;
+	Booking(){
+		Scanner scan=new Scanner(System.in);
+		System.out.println("enter the passenger Name");
+		this.passengerName=scan.next();
+		System.out.println("enter the bus Number");
+		this.busNumber=scan.nextInt();
+		
+		
+	}
+	public void PassInfo() {
+		System.out.println("Name :"+ passengerName+"bus No :"+busNumber);
+	}
+
+}
+>>>>>>> 3f172ced2e82d1693a9723f735635f612b6cf45b
